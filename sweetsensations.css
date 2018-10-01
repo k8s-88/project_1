@@ -1,0 +1,71 @@
+  .mainimage {
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .mainheading {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+  }
+
+  .headingfont {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+  }
+
+  .font {
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+  }
+
+  .tagline {
+    position: absolute;
+    left: 20px;
+    top: 140px;
+  }
+
+  .coltext {
+    margin-top: 10%;
+    margin-bottom: 30%;
+    font-size: 10px;
+    text-align: center;
+
+
+
+  }
+
+  .roundedfloatright {
+    float: right;
+  }
+
+  .roundedfloatleft {
+    float: left;
+  }
+
+  .navbar {
+    color: black;
+  }
+
+  .headings {
+    text-align: center;
+  }
+
+  .section {
+    margin: 30px;
+  }
+
+  .contact {
+    color: red;
+    text-align: center
+  }
+
+  .rounded-circle {
+    margin-left: 70px;
+  }
+  
