@@ -1,77 +1,193 @@
-  .mainimage {
+    .mainimage {
 
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-  }
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
 
-  .mainheading {
-    position: absolute;
-    left: 20px;
-    top: 90px;
-  }
+    }
 
-  .headingfont {
-    font-family: 'Raleway', sans-serif;
-    color: black;
-  }
+    .imagemobile {
+      display: block;
+    }
 
-  .font {
-    font-family: 'Raleway', sans-serif;
-    color: #777;
-  }
+    .imagedesktop {
+      display: none;
+    }
 
-  .tagline {
-    position: absolute;
-    left: 20px;
-    top: 140px;
-  }
+    @media (min-width: 1025px) {
 
-  .coltext {
-    margin-top: 10%;
-    margin-bottom: 30%;
-    font-size: 10px;
-    text-align: center;
+      .imagemobile {
+
+        display: none;
+
+      }
+      .imagedesktop {
+        display: block;
+      }
+    }
+
+    .mainheading {
+      position: absolute;
+      left: 40px;
+      margin-top: 40px;
+      font-size: 20px;
+      font-family: 'Pacifico', cursive;
+      height: 50%;
+      width: 50%;
+    }
+
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      .mainheading {
+
+        left: 50px;
+        margin-top: 50px;
+        font-size: 40px;
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1800px) {
+      .mainheading {
+
+        left: 50px;
+        margin-top: 20px;
+        font-size: 60px;
+      }
+    }
+
+    .tagline {
+      position: absolute;
+      left: 40px;
+      margin-top: 70px;
+      height: 50%;
+      width: 70%;
+      font-family: 'Raleway', sans-serif;
+      color: black;
+      font-size: 10px;
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      .tagline {
+        left: 50px;
+        margin-top: 130px;
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1800px) {
+      .tagline {
+
+        left: 50px;
+        margin-top: 120px;
+        font-size: 25px;
+      }
+    }
+
+    .btn {
+      position: absolute;
+      left: 40px;
+      margin-top: 120px;
+      font-size: 10px;
+      background-color: pink;
+
+    }
+
+    @media (min-width: 768px) {
+      .btn {
+        left: 50px;
+        margin-top: 250px;
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 1148px) {
+      .btn {
+        left: 50px;
+        margin-top: 250px;
+        font-size: 25px;
+      }
+    }
+
+    .headingfont {
+      font-family: 'Raleway', sans-serif;
+      color: black;
+      font-size: 10px;
+
+    }
+
+    .font {
+      font-family: 'Raleway', sans-serif;
+      color: #777;
+    }
 
 
 
-  }
+    .btn:hover {
+      background-color: black;
+      color: pink;
+      font-weight: bold;
 
-  .logo {
-    height: 50px;
-    width: 50px;
+    }
 
-  }
+    .coltext {
+      margin-top: 10%;
+      margin-bottom: 30%;
+      font-size: 10px;
+      text-align: center;
 
-  .roundedfloatright {
-    float: right;
-  }
 
-  .roundedfloatleft {
-    float: left;
-  }
 
-  .navbar {
-    color: black;
-  }
+    }
 
-  .headings {
-    text-align: center;
-  }
+    .logo {
+      height: 75px;
+      width: 75px;
 
-  .section {
-    margin: 30px;
-  }
 
-  .contact {
-    color: red;
-    text-align: center
-  }
+    }
 
-  .rounded-circle {
-    margin-left: 70px;
-  }
-  
+    .roundedfloatright {
+      float: right;
+    }
+
+    .roundedfloatleft {
+      float: left;
+    }
+
+
+    .headings {
+      text-align: center;
+    }
+
+    .section {
+      margin: 30px;
+    }
+
+    .contact {
+      color: red;
+      text-align: center
+    }
+
+    .rounded-circle {
+      margin-left: 70px;
+    }
+
+    .bg-info {
+      background-color: #F6E5D5!important;
+      color: black;
+
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: black;
+    }
+
+    .navbar {
+
+      padding: 0;
+
+    }
+    
