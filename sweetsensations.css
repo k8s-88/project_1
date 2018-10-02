@@ -40,6 +40,12 @@
 
   }
 
+  .logo {
+    height: 50px;
+    width: 50px;
+
+  }
+
   .roundedfloatright {
     float: right;
   }
